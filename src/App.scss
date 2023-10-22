@@ -298,6 +298,7 @@ a {
   text-decoration: none;
   padding: 50px;
   margin: -42px;
+  font-size: medium;
 }
 
 $bg: rgb(16, 16, 16);
@@ -313,16 +314,17 @@ $bg: rgb(16, 16, 16);
 
   > img {
     height: 35px;
-    margin-left: 15px;
+    margin-left: 25px;
     margin-right: 60px;
   }
   > div {
     width: 100%;
-    margin-left: 200px;
+    margin-left: 150px;
     > a {
       margin: 2vmax;
       font-size: 1.3rem;
       font-weight: 300;
+      font-size: medium;
     }
   }
   > svg {
