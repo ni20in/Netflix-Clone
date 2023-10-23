@@ -279,7 +279,7 @@ $bg: rgb(16, 16, 16);
 
 
 
-@media (width>=768px) {
+@media (768px<=width<=1024px) {
   * {
     margin: 0%;
     padding: 0%;
@@ -298,7 +298,7 @@ a {
   text-decoration: none;
   padding: 50px;
   margin: -42px;
-  font-size: medium;
+  font-size: large;
 }
 
 $bg: rgb(16, 16, 16);
@@ -318,13 +318,135 @@ $bg: rgb(16, 16, 16);
     margin-right: 60px;
   }
   > div {
-    width: 100%;
-    margin-left: 150px;
+    width: 900px;
+    margin-left: 190px;
     > a {
       margin: 2vmax;
       font-size: 1.3rem;
       font-weight: 300;
-      font-size: medium;
+      font-size: xx-large;
+    }
+  }
+  > svg {
+    margin-left: -131px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 20px;
+
+    &:hover {
+      color: rgb(216, 216, 216);
+    }
+  }
+}
+}
+@media (1024px<width<=1440px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+    overflow: scroll;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  a,
+h2 {
+  color: white;
+}
+a {
+  text-decoration: none;
+  padding: 50px;
+  margin: -42px;
+  font-size: x-large;
+}
+
+$bg: rgb(16, 16, 16);
+
+.header {
+  height: 50px;
+  background-color:$bg;
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+  > img {
+    height: 35px;
+    margin-left: 25px;
+    margin-right: 60px;
+  }
+  > div {
+    width: 800px;
+    margin-left: 600px;
+    > a {
+      margin: 2vmax;
+      font-size: 1.3rem;
+      font-weight: 300;
+      font-size: xx-large;
+    }
+  }
+  > svg {
+    margin-left: -131px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 20px;
+
+    &:hover {
+      color: rgb(216, 216, 216);
+    }
+  }
+}
+}
+@media (1440px<width) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+    overflow: scroll;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  a,
+h2 {
+  color: white;
+}
+a {
+  text-decoration: none;
+  padding: 50px;
+  margin: -42px;
+  font-size: xx-large;
+}
+
+$bg: rgb(16, 16, 16);
+
+.header {
+  height: 50px;
+  background-color:$bg;
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+  > img {
+    height: 35px;
+    margin-left: 25px;
+    margin-right: 60px;
+  }
+  > div {
+    width: 696px;
+    margin-left: 1458px;
+    > a {
+      margin: 2vmax;
+      font-size: 1.3rem;
+      font-weight: 300;
+      font-size: xx-large;
     }
   }
   > svg {
